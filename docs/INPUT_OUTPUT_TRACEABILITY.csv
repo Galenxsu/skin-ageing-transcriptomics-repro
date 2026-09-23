@@ -1,0 +1,9 @@
+﻿stage,input,code,output,reported
+Age-group expression,48 GSE85358 Agilent raw files + sample metadata + Phase131 annotation,Phase163 01_masked_qc.R; 02_models.R,GENE_P2_M0.csv,"11,412 tested; 3,242 FDR<0.05; 1,772 up/1,470 down"
+Gene evidence tiers,Phase163 six-branch gene results + frozen tissue/single-cell annotations,Phase167 02_genes_queries.py,AXIS_A_GENE_EVIDENCE_MATRIX.csv,"Tier A/B/C=19/3,220/3"
+Pathway evidence tiers,Frozen 27 pathways and Phase163/167 outputs,Phase167 03_remaining_audits.py,RECALCULATED_PATHWAY_TIERS.csv,A/B/C/unclassified=3/2/20/2
+LINCS universe and split,"GSE70138 metadata, compound identities, 8,227-gene intersection",Phase171A build_universe.py; preregister171a.py,eligible_compound_universe.csv; discovery_validation_assignment_preview.csv,"1,792 pert_id; 107,201 signatures"
+Observed scoring,Frozen GSE70138 matrix + query definitions,Phase171B engine171b.py; observed_scores.py,observed scores and aggregation arrays,negative=reversal
+Null and FDR,"Frozen strata, seeds, queries, universe",Phase171B null171b.py; parallel_null171b.py; summarize_statistics.py,all_query_statistics.csv,"2,999,987 primary null iterations; BH within 12 families"
+Final classification,"Statistics, support gates, identity, robustness, independent validations",Phase171B finalize_blinded_statistics.py,final_compound_classification.csv,"A/B/C/E/F=8/21/136/365/1,262"
+Scientific interpretation,Frozen classification and robustness matrices,No rescoring; mechanical review,Phase171C FINAL_REPORT_ZH.md,8 statistical A candidates; internal heldout only

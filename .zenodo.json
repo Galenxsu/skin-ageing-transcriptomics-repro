@@ -1,0 +1,11 @@
+{
+  "title": "Adult female forearm epidermal age-group transcriptomics and limited-universe perturbation screening: reproducibility package",
+  "upload_type": "software",
+  "version": "v1.0.0-p0-repro",
+  "description": "Code, frozen rules, compact fixtures, manifests and reproducibility documentation. Large GSE70138-derived assets are not redistributed; obtain them from the source/local controlled archive and verify SHA-256.",
+  "creators": [
+    {"name":"Zeng, Guishu"},{"name":"Zhu, Yibo"},{"name":"Wu, Yuxiang"},{"name":"Liu, Huimin"},{"name":"Chen, Yiling"},{"name":"Su, Kai"}
+  ],
+  "access_right": "open",
+  "license": "MIT"
+}

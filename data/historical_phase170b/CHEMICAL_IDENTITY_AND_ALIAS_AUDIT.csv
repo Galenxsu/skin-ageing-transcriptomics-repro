@@ -1,0 +1,7 @@
+﻿compound_id,compound,pert_id,target_inchikey,lincs_inchikey,structure_match_class,profiles,original_pert_inames,identity_rule
+TCMEXP-0026,Liquiritigenin,BRD-K34328244,FURUXTVZLHCCNA-AWEZNQCLSA-N,FURUXTVZLHCCNA-AWEZNQCLSA-N,EXACT_STRUCTURE_MATCH,42,MF-101,Frozen exact structure; aliases not new compounds
+TCMEXP-0065,Resveratrol,BRD-K80738081,LUKBXSAWLPMMSZ-OWOJBTEDSA-N,LUKBXSAWLPMMSZ-OWOJBTEDSA-N,EXACT_STRUCTURE_MATCH,171,resveratrol,Frozen exact structure; aliases not new compounds
+TCMEXP-0085,Adenosine,BRD-K01577834,OIRDTQYFTABQOQ-KQYNXXCUSA-N,OIRDTQYFTABQOQ-KQYNXXCUSA-N,EXACT_STRUCTURE_MATCH,42,adenosine,Frozen exact structure; aliases not new compounds
+TCMEXP-0091,Catechin,BRD-K58736316,PFTAWBLQPZVEMU-DZGCQCFKSA-N,PFTAWBLQPZVEMU-DZGCQCFKSA-N,EXACT_STRUCTURE_MATCH,42,cianidanol,Frozen exact structure; aliases not new compounds
+TCMEXP-0104,Quercetin,BRD-K97399794,REFJWTPEDVJJIY-UHFFFAOYSA-N,REFJWTPEDVJJIY-UHFFFAOYSA-N,EXACT_STRUCTURE_MATCH,42,quercetin,Frozen exact structure; aliases not new compounds
+TCMEXP-0113,Genistein,BRD-K43797669,TZBJGXHYKVUXJN-UHFFFAOYSA-N,TZBJGXHYKVUXJN-UHFFFAOYSA-N,EXACT_STRUCTURE_MATCH,42,genistein,Frozen exact structure; aliases not new compounds

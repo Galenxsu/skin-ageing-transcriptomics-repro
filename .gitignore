@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.npy
+*.h5
+*.hdf5
+*.gctx
+*.rds
+*.RData
+data/raw/
+data/derived_large/
+null/
+checkpoints/
+logs/
+.env
+

@@ -1,0 +1,16 @@
+﻿domain,rule,source,mechanical,result_selection
+Expression preprocessing,P2 primary: non-control gMedianSignal/gBGMedianSignal; limma normexp background correction offset 50; log2; quantile normalization; identical ProbeName averaged on normalized log2 scale.,Phase163 METHODS_LOCK.md; SCRIPTS/01_masked_qc.R,YES,Frozen before DE; not selected by DEG count
+Primary DE model,"limma lmFit + eBayes; design ~ age_group with young reference; old-young coefficient; BH across 11,412 genes; discovery threshold BH-FDR<0.05.",Phase163 SCRIPTS/02_models.R,YES,No sample removal in M0-M3
+Gene representative,Use Phase131 selected unique HGNC representative probes; no rescue when selected probe absent.,Phase163 METHODS_LOCK.md; 02_models.R,YES,Annotation frozen upstream
+Internal robustness,"P2 M0/M1/M2/M3 and P1/P3 M0 all evaluable, logFC same sign, absolute-t percentile span <=0.20.",Phase167 RULES_LOCK.md; 02_genes_queries.py,YES,Six fixed branches
+Gene Tier A,P2 M0 BH-FDR<0.05 AND internal robustness AND eligible single-cell keratinocyte direction support.,Phase167 02_genes_queries.py,YES,GSE18876 strong gene-level support unavailable and not imputed
+Gene Tier B,"P2 M0 BH-FDR<0.05 AND internal robustness, without Tier-A single-cell support.",Phase167 02_genes_queries.py,YES,Axis B not used
+Gene Tier C,P2 M0 BH-FDR<0.05 but not internally robust.,Phase167 02_genes_queries.py,YES,Method-sensitive discovery signal
+LINCS universe,"GSE70138 Level 5; 1,792 structure-eligible pert_id, 107,201 signatures, 8,227 mapped genes; discovery and heldout base-cell sets frozen before scoring.",Phase171A protocol and CSV freezes,YES,Normal adult skin exact contexts=0
+Primary signature,"Continuous G2_R2_CAP8; P2 t statistics clipped at absolute 8 and L2-normalized within the 8,227-gene observable space.",Phase171A PROTOCOL_FREEZE_ZH.md; engine171b.py,YES,Primary query frozen before expression values read
+Profile score,Cosine similarity between compound profile and age weights; negative denotes reversal and positive mimicry.,Phase171B engine171b.py; config audit,YES,float64
+Aggregation,Median profiles within compound-cell-dose-time context; median contexts within base cell; median base cells within compound/fold.,Phase171B config audit; engine171b.py,YES,No best-dose/context selection
+Null,PCG64; measurement class x age AveExpr quintile strata; query-specific frozen seeds; matched random members; empirical lower/upper P=(1+extreme count)/(B+1).,Phase171A/171B freezes; null171b.py,YES,"2,999,987 primary permutations total"
+Multiplicity,"BH within each of 12 complete frozen directional families; 53,760 directional slots; non-evaluable slots P=1 only for multiplicity.",Phase171A family registry; Phase171B config audit,YES,alpha 0.05
+Class A,"Discovery and heldout reversal BH-FDR<0.05; support, cell/context/dose/time LOO, HQ, numerical validity, identity, representation stability pass; not historically exposed.",Phase171B finalize_blinded_statistics.py,YES,"Internal heldout, not external validation"
+Classes B/C/D/E/F/G,Priority: non-evaluable G; mimic F; all gates A; discovery with context restriction C; other discovery B; top-18 negative nonsignificant D; otherwise E.,Phase171B classification code,YES,No manual biological filtering

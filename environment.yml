@@ -1,0 +1,16 @@
+name: skin-aging-tcm-repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.3.5
+  - numba=0.63.1
+  - llvmlite=0.46.0
+  - threadpoolctl=3.6.0
+  - h5py=3.15.1
+  - r-base=4.6.1
+  - bioconductor-limma=3.68.4
+  - r-statmod=1.5.2
+  - openpyxl=3.1.5
+# The completed isolated reproduction used Python 3.12.13.
+# Conda resolves a compatible 3.12 patch version; see docs/CLEANROOM_RUNTIME.md.

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "compounds": 229,
+  "folds": 451,
+  "B": 99999,
+  "seed": 171260901,
+  "permutation_hashes_match": true,
+  "counts_exact": true,
+  "continuous_comparison_sha256": "e7fbb7a9682d0a95e7d62cc8592d4d96393ef5fd524ecf54db8be907a8ab3da3",
+  "continuous_comparison_fields": [
+    "path1_comparison_value",
+    "path2_reference_value",
+    "absolute_difference",
+    "relative_difference"
+  ]
+}

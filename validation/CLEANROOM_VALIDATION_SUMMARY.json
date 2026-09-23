@@ -1,0 +1,25 @@
+{
+  "scope": "author-controlled isolated reproduction",
+  "third_party_independent_validation": false,
+  "main_null": {
+    "planned": 2999987,
+    "completed": 2999987,
+    "complete": true
+  },
+  "independent_validation": {
+    "planned": 99999,
+    "completed": 99999,
+    "seed": 171260901,
+    "status": "PASS",
+    "permutation_hashes_match": true,
+    "null_extreme_counts_exact": true
+  },
+  "postprocessing_complete": true,
+  "workbook_readback": {
+    "workbooks": 27,
+    "all_cells_match": true,
+    "iso_timestamp_cells_repaired": 3,
+    "repair_scope": "format only",
+    "scientific_results_unchanged": true
+  }
+}

@@ -1,0 +1,9 @@
+﻿metric,observed,expected,status,source
+GSE85358 tested genes,11412,11412,PASS,Phase163 GENE_P2_M0.csv
+GSE85358 FDR<0.05,3242,3242,PASS,Phase163 GENE_P2_M0.csv
+GSE85358 up/down,1772/1470,1772/1470,PASS,Phase163 GENE_P2_M0.csv
+Gene tiers A/B/C,19/3220/3,19/3220/3,PASS,Phase167 AXIS_A_GENE_EVIDENCE_MATRIX.csv
+Compound universe,1792,1792,PASS,Phase171B final_compound_classification.csv
+Compound classes A/B/C/E/F,8/21/136/365/1262,8/21/136/365/1262,PASS,Phase171B final_compound_classification.csv
+Discovery n/nominal/FDR reversal,1792/223/165,1792/223/165,PASS,Phase171B discovery_results.csv
+Heldout n/nominal/FDR reversal,1744/258/204,1744/258/204,PASS,Phase171B heldout_results.csv

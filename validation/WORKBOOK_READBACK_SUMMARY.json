@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "workbooks": 27,
+  "repaired_timestamp_cells": 3,
+  "all_cells_match": true,
+  "timestamp_rule": "ISO 8601 UTC text with timezone and preserved source precision",
+  "scientific_result_changes": 0
+}

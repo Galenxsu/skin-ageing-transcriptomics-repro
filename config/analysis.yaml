@@ -1,0 +1,19 @@
+release_tag: v1.0.0-p0-repro
+archive_target: Zenodo
+large_asset_policy: download_or_local_path_plus_sha256_only
+statistics:
+  expression_seed: 1632026
+  fdr_alpha: 0.05
+  float_dtype: float64
+  independent_atol: 1.0e-12
+  independent_rtol: 1.0e-10
+lincs:
+  compounds: 1792
+  signatures: 107201
+  genes: 8227
+  primary_query: G2_R2_CAP8
+  primary_seed: 171260901
+  primary_B: 99999
+  total_primary_null_iterations: 2999987
+  minimum_free_disk_gib: 60
+  minimum_available_ram_gib: 12
