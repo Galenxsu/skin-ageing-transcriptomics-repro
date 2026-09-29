@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the associated manuscript and archived release."
 title: "Adult female forearm epidermal age-group transcriptomics and limited-universe perturbation screening"
 version: "1.0.0-p0-repro"
-date-released: "2026-09-22"
+date-released: "2026-09-29"
 authors:
   - family-names: Zeng
     given-names: Guishu
@@ -16,5 +16,5 @@ authors:
     given-names: Yiling
   - family-names: Su
     given-names: Kai
-repository-code: "TO_BE_ASSIGNED"
+repository-code: "https://github.com/Galenxsu/skin-ageing-transcriptomics-repro"
 doi: "TO_BE_ASSIGNED_BY_ZENODO"
